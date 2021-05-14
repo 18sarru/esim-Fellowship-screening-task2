@@ -1,0 +1,25 @@
+* C:\Users\saisr\eSim-Workspace\jc\jc.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 5/13/2021 6:44:35 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U2  Net-_U2-Pad1_ Net-_U2-Pad2_ Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U2-Pad6_ johnson_counter		
+U4  in1 in2 Net-_U2-Pad1_ Net-_U2-Pad2_ adc_bridge_2		
+U5  Net-_U2-Pad3_ Net-_U2-Pad4_ Net-_U2-Pad5_ Net-_U2-Pad6_ out1 out2 out3 out4 dac_bridge_4		
+R1  out1 GND resistor		
+R2  out2 GND resistor		
+R3  out3 GND resistor		
+R4  out4 GND resistor		
+v1  in1 GND pulse		
+v2  in2 GND pulse		
+U3  in1 plot_v1		
+U1  in2 plot_v1		
+U6  out1 plot_v1		
+U7  out2 plot_v1		
+U8  out3 plot_v1		
+U9  out4 plot_v1		
+
+.end

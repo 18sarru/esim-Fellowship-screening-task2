@@ -1,3 +1,4 @@
 # esim-Fellowship-screening-task2
-esim screening task2 , performed circuits using the NGHDL feature
-yes
+The first circuit is a jhonson counter\
+The second circuit is a 2 bit multiplier circuit\\
+
